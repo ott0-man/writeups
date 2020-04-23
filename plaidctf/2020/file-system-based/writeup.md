@@ -102,7 +102,10 @@ TROLLOL
    how the FAT32 filesystem is laid out.
 
    The PDF file at http://read.pudn.com/downloads77/ebook/294884/FAT32%20Spec%20%28SDA%20Contribution%29.pdf
-   was very useful. The FAT32 file is laid out something like this:
+   and the example code at https://gist.github.com/jonte/4577833 was very
+   useful. I based my scripts on jonte's code.
+   
+   The FAT32 file is laid out something like this:
 
    | Layout                |
    |-----------------------|
@@ -145,7 +148,9 @@ TROLLOL
    find the start of the directory entry. This cluster number is the one that
    I had to search for in the next step.
 
-7. Win.
+7. Time to win:
+
+   Grab the [tar file](strcmp.tar.gz) and [solve.py](solve.py) to try it out.
 
 ```
 root@kali# python3 solve.py                                
