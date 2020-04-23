@@ -104,6 +104,8 @@ TROLLOL
    The PDF file at http://read.pudn.com/downloads77/ebook/294884/FAT32%20Spec%20%28SDA%20Contribution%29.pdf
    was very useful. The FAT32 file is laid out something like this:
 
+   | Layout                |
+   |-----------------------|
    | Boot Parameter Block  |
    | File Allocation Table |
    | Data Cluster #2       |
